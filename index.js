@@ -20,6 +20,10 @@ app.use(cors())
 
 app.listen(5000)
 
+app.get('/', (req, res)=>{
+  res.send("Hello It is Working")
+})
+
 
 
 client.connect(err => {
